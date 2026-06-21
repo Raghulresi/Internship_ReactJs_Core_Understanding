@@ -4,6 +4,7 @@ import Props_ex from "./Props_ex";
 import State_ex from "./State_ex";
 import Conditionals from "./Conditionals";
 import List_map from "./List_map";
+import Form from "./Form.js";
 
 function App() {
   const class_component = new Class_component("Class_Component");
@@ -15,6 +16,7 @@ function App() {
         <State_ex/><hr></hr>
         <Conditionals/><hr></hr>
         <List_map/><hr></hr>
+        <Form/><hr></hr>
     </div>
   );
 }

@@ -7,6 +7,6 @@ function Use_effect_hook()
         setTimeout(()=>{setCount((count)=>count+1);}
                    ,1000);
     });
-    return <h1>Counting {count}</h1>
+    return <h1>useEffect_hook: Counting {count}</h1>
 }
 export default Use_effect_hook;

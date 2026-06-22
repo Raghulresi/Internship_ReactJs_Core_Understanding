@@ -8,6 +8,7 @@ import Form from "./Form.js";
 import Use_state_hook from "./Use_state_hook.js";
 import Use_effect_hook from "./Use_effect_hook.js";
 import Use_Context_hook from "./Use_Context_hook.js";
+import Use_reducer_hook from "./Use_reducer_hook.js";
 
 function App() {
   const class_component = new Class_component("Class_Component");
@@ -23,6 +24,7 @@ function App() {
         <Use_state_hook/><hr></hr>
         <Use_effect_hook/><hr></hr>
         <Use_Context_hook/><hr></hr>
+        <Use_reducer_hook/><hr></hr>
     </div>
   );
 }

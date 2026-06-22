@@ -9,7 +9,7 @@ function Use_effect_hook()
     });
     return(
         <div>
-            <h1>useEffect_hook:{count} </h1>
+            <h1>useEffect_hook: counting = {count} </h1>
         </div>
     );
 }
